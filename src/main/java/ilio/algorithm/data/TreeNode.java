@@ -1,4 +1,4 @@
-package ilio.data;
+package ilio.algorithm.data;
 
 /**
  * @Author hyia

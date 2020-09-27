@@ -1,6 +1,6 @@
 package ilio.algorithm.other;
 
-import ilio.data.KVNode;
+import ilio.algorithm.data.KVNode;
 
 import java.util.HashMap;
 import java.util.Map;

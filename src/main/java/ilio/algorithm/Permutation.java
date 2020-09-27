@@ -1,4 +1,4 @@
-package leetcode;
+package ilio.algorithm;
 
 import java.util.ArrayList;
 import java.util.List;

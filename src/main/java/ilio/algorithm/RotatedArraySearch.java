@@ -1,4 +1,4 @@
-package leetcode;
+package ilio.algorithm;
 
 public class RotatedArraySearch {
 

@@ -1,6 +1,6 @@
 package ilio.algorithm.node;
 
-import ilio.data.TreeNode;
+import ilio.algorithm.data.TreeNode;
 
 /**
  * @Author hyia
