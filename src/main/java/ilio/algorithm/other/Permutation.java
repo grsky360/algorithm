@@ -1,8 +1,12 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/permutation-sequence/
+ * */
 public class Permutation {
 
     public static String getPermutation(int n, int k) {

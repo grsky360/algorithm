@@ -1,5 +1,9 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/max-area-of-island/
+ */
 public class MaxArea {
 
     public static int maxAreaOfIsland(int[][] grid) {

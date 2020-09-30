@@ -1,5 +1,9 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/
+ * */
 public class LengthOfLCIS {
 
     public static int findLengthOfLCIS(int[] nums) {

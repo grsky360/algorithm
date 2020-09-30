@@ -2,6 +2,10 @@ package ilio.algorithm.node;
 
 import ilio.algorithm.data.ListNode;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/reverse-linked-list/
+ * */
 public class ReverseListNode {
 
     public static ListNode reverseList(ListNode head) {

@@ -1,5 +1,9 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+ * */
 public class RotatedArraySearch {
 
     public static int search(int[] nums, int target) {

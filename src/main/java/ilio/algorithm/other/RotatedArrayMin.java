@@ -1,5 +1,9 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
+ * */
 public class RotatedArrayMin {
 
     public static int findMin(int[] nums) {

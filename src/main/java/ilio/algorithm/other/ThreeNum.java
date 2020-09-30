@@ -1,9 +1,13 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/3sum/
+ * */
 public class ThreeNum {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();

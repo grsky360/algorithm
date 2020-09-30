@@ -2,6 +2,10 @@ package ilio.algorithm.node;
 
 import ilio.algorithm.data.ListNode;
 
+/**
+ * @Author Hyia
+ * @url https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+ * */
 public class IntersectionListNode {
 
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {

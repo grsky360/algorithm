@@ -8,6 +8,7 @@ import java.util.Map;
 /**
  * @Author hyia
  * @Date 2020/09/25 13:09
+ * @url https://leetcode-cn.com/problems/lru-cache/
  */
 public class LRUCache {
 

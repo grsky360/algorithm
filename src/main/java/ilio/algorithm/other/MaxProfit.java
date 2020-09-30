@@ -1,5 +1,10 @@
-package ilio.algorithm;
+package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+ * @url https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
+ * */
 public class MaxProfit {
 
     public static int maxProfit(int[] prices) {

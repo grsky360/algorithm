@@ -1,5 +1,9 @@
 package ilio.algorithm.other;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/minimum-path-sum/
+ * */
 public class MinPathSum {
 
     public static int minPathSum(int[][] grid) {

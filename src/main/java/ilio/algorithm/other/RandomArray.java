@@ -3,6 +3,10 @@ package ilio.algorithm.other;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * @Author hyia
+ * @url https://leetcode-cn.com/problems/shuffle-an-array/
+ * */
 public class RandomArray {
 
     static class Solution {
