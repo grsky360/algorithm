@@ -12,10 +12,10 @@ import java.util.Map;
  */
 public class LRUCache {
 
-    private Map<Integer, KVNode> map = new HashMap<>();
-    private KVNode head = new KVNode(-1, -1);
-    private KVNode tail = new KVNode(-1, -1);
-    private int capacity;
+    private final Map<Integer, KVNode> map = new HashMap<>();
+    private final KVNode head = new KVNode(-1, -1);
+    private final KVNode tail = new KVNode(-1, -1);
+    private final int capacity;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
@@ -51,10 +51,9 @@ public class LRUCache {
         if (map.size() > capacity) {
             map.remove(tail.prev.key);
             KVNode t = tail.prev;
-            t.prev.next = tail;
             tail.prev = t.prev;
-            t.prev = null;
-            t.next = null;
+            t.prev.next = tail;
+            t.prev = t.next = null;
         }
 
 
@@ -63,8 +62,8 @@ public class LRUCache {
     private void moveToHead(KVNode node) {
         node.next = head.next;
         node.next.prev = node;
-        head.next = node;
         node.prev = head;
+        head.next = node;
     }
 
     public static void main(String[] args) {
