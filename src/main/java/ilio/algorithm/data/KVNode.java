@@ -15,4 +15,14 @@ public class KVNode {
         this.key = key;
         this.val = val;
     }
+
+    @Override
+    public String toString() {
+        return "KVNode{" +
+            "key=" + key +
+            ", val=" + val +
+            ", prev=" + prev +
+            ", next=" + next +
+            '}';
+    }
 }
