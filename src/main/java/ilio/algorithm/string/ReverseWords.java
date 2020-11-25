@@ -5,7 +5,7 @@ package ilio.algorithm.string;
  * @Date 2020/09/25 16:21
  * @Url https://leetcode-cn.com/problems/reverse-words-in-a-string/
  */
-public class ReverseString {
+public class ReverseWords {
 
     public static String reverseWords(String s) {
 
