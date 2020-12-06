@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * */
 public class RandomArray {
 
-    static class Solution {
+    public static class Solution {
         private final int[] nums;
         private static final ThreadLocalRandom random = ThreadLocalRandom.current();
 
