@@ -1,7 +1,8 @@
 plugins {
     id("org.springframework.boot") version "2.4.1"
     id("io.spring.dependency-management") version "1.0.10.RELEASE"
-    id("java")
+    java
+    scala
 }
 
 group = "ilio"
@@ -21,10 +22,16 @@ repositories {
 
 sourceSets {
     main {
-        java.srcDirs(file("src/main/java"), file("src/main/scala"))
+        java.srcDir(file("src/main/java"))
+        withConvention(ScalaSourceSet::class) {
+            scala.srcDir(file("src/main/scala"))
+        }
     }
     test {
-        java.srcDirs(file("src/test/java"), file("src/test/scala"))
+        java.srcDir(file("src/test/java"))
+        withConvention(ScalaSourceSet::class) {
+            scala.srcDir(file("src/test/scala"))
+        }
     }
 }
 
@@ -37,11 +44,16 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("junit:junit:4.13")
 
     runtimeOnly("mysql:mysql-connector-java")
 
     implementation("com.google.guava:guava:30.1-jre")
     implementation("com.google.code.gson:gson")
+
+
+    implementation("org.scala-lang:scala-library:2.11.12")
+    testImplementation("org.scalatest:scalatest_2.11:3.0.0")
 }
 
 tasks.withType<Test> {
