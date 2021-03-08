@@ -51,6 +51,7 @@ dependencies {
     implementation("com.google.guava:guava:30.1-jre")
     implementation("com.google.code.gson:gson")
 
+    implementation("org.apache.lucene:lucene-core:8.8.1")
 
     implementation("org.scala-lang:scala-library:2.11.12")
     testImplementation("org.scalatest:scalatest_2.11:3.0.0")
